@@ -1,0 +1,83 @@
+/* Kaylanita Aldesi_202432040 */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.stok-header {
+    background-color: #66a3b6; 
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.stok-header h1 {
+    margin: 0 0 20px 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.nav-stok {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-stok a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-stok a.active {
+    background-color: white;
+    color: #66a3b6;
+    font-weight: bold;
+}
+
+.container-stok {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.table-stok {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table-stok th {
+    background-color: #66a3b6;
+    color: white;
+    border: 1px solid #ffffff;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.table-stok td {
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.table-stok td[rowspan] {
+    vertical-align: middle;
+    text-align: left;
+    font-weight: 500;
+}

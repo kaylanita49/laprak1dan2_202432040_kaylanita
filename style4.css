@@ -1,0 +1,59 @@
+/* Kaylanita Aldesi_202432040 */
+
+body { 
+    background: linear-gradient(135deg, #e74c3c 0%, #2c3e50 100%); 
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover { 
+    color: #f1c40f !important; 
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #f1c40f !important;
+}
+
+.card { 
+    background-color: rgba(52, 73, 94, 0.9) !important; 
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.card h2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.input-group-text {
+    background-color: #f1c40f; 
+    border: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-warning {
+    background-color: #f1c40f;
+    border: none;
+    color: #2c3e50;
+    transition: 0.3s;
+}
+
+.btn-warning:hover {
+    background-color: #d4ac0d;
+    transform: translateY(-2px);
+}
